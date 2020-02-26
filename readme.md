@@ -1,5 +1,9 @@
 # Openstack搭建配置
 
+openstack平台已搭建在服务器上，可远程连接平台进行开发，IP地址为112.125.88.175, 用户名：root,密码：Openstack123。
+搭建好的openstack平台可通过浏览器进行服务管理，访问http://112.125.88.175/dashboard，用户名：admin,密码：123456。
+
+搭建配置步骤：
 1.安装ubuntu16.04以上版本server系统，并在系统中安装git必要工具；
 
 2.命令行输入 `git clone https://github.com/openstack-dev/devstack.git --branch /stable/pike` 拉取openstack自动化配置库devstack；
